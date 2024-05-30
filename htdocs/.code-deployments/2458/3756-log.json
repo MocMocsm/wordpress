@@ -1,0 +1,132 @@
+[
+  {
+    "commandIdentifier": "408a97a2f810f2816d36a61ed1ddf2bdb6e7d9bb61d81fa8ff436885d3eb7d7b",
+    "startTime": "2024-05-30T14:06:32+00:00",
+    "command": "mkdir -vp '/srv/htdocs'",
+    "exitCode": 0,
+    "stdout": [],
+    "stderr": []
+  },
+  {
+    "commandIdentifier": "7d4aa3d1ab31428a77c83676486738279f8168198261803acaa8172575cc5b88",
+    "startTime": "2024-05-30T14:06:33+00:00",
+    "command": "if [ ! -w '/srv/htdocs' ]; then echo \"Cannot deploy to protected directory '/srv/htdocs'\"; (exit 1); fi",
+    "exitCode": 0,
+    "stdout": [],
+    "stderr": []
+  },
+  {
+    "commandIdentifier": "d614075e859cd39ef2a6dd5f1cb83ce712eeb06ee4c5965b4c1b2bf7d363847d",
+    "startTime": "2024-05-30T14:06:37+00:00",
+    "command": "unzip -o '/tmp/2458-3756.zip' -d '/tmp/2458-3756' && rm '/tmp/2458-3756.zip'",
+    "exitCode": 0,
+    "stdout": [
+      "Archive:  /tmp/2458-3756.zip",
+      "0c938300fbe8d40e88eaf937a860624f07aa043f",
+      "   creating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/",
+      "   creating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/Local Sites/",
+      "   creating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/Local Sites/totaquicom/",
+      "   creating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/",
+      "   creating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/",
+      "   creating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/wp-content/",
+      "   creating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/wp-content/plugins/",
+      "   creating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/",
+      "  inflating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/custom-address-autocomplete.php  ",
+      "  inflating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/custom-autocomplete.js  ",
+      "  inflating: /tmp/2458-3756/MocMocsm-wordpress-0c93830/README.md  "
+    ],
+    "stderr": []
+  },
+  {
+    "commandIdentifier": "91995817447dfb86bb127bf945e7113d7b2784cedec0eca260a556df9b9dc60f",
+    "startTime": "2024-05-30T14:06:39+00:00",
+    "command": "rsync --verbose --archive --delete-after '/tmp/2458-3756/MocMocsm-wordpress-0c93830/' '/tmp/2458-3756'",
+    "exitCode": 0,
+    "stdout": [
+      "building file list ... done",
+      "./",
+      "README.md",
+      "Local Sites/",
+      "Local Sites/totaquicom/",
+      "Local Sites/totaquicom/app/",
+      "Local Sites/totaquicom/app/public/",
+      "Local Sites/totaquicom/app/public/wp-content/",
+      "Local Sites/totaquicom/app/public/wp-content/plugins/",
+      "Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/",
+      "Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/custom-address-autocomplete.php",
+      "Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/custom-autocomplete.js",
+      "deleting MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/custom-autocomplete.js",
+      "deleting MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/custom-address-autocomplete.php",
+      "deleting MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/",
+      "deleting MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/wp-content/plugins/",
+      "deleting MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/wp-content/",
+      "deleting MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/public/",
+      "deleting MocMocsm-wordpress-0c93830/Local Sites/totaquicom/app/",
+      "deleting MocMocsm-wordpress-0c93830/Local Sites/totaquicom/",
+      "deleting MocMocsm-wordpress-0c93830/Local Sites/",
+      "deleting MocMocsm-wordpress-0c93830/README.md",
+      "deleting MocMocsm-wordpress-0c93830/",
+      "",
+      "sent 4,300 bytes  received 96 bytes  8,792.00 bytes/sec",
+      "total size is 3,845  speedup is 0.87"
+    ],
+    "stderr": []
+  },
+  {
+    "commandIdentifier": "fec979e1691a1d1c8751bd680f9d06ef97e54f533d33053e43467dd9e4a40893",
+    "startTime": "2024-05-30T14:06:41+00:00",
+    "command": "find '/srv/htdocs' -not -writable -print | sed \"s|/srv/htdocs||\" > '/tmp/2458-3756-protected-files' && mkdir -vp '/srv/htdocs/.code-deployments/2458' && if [ -f '/srv/htdocs/.code-deployments/2458/manifest.json' ]; then cp -v '/srv/htdocs/.code-deployments/2458/manifest.json' '/srv/htdocs/.code-deployments/2458/manifest.json.old'; fi && rsync --exclude-from='/tmp/2458-3756-protected-files' -ii --recursive --log-file='/srv/htdocs/.code-deployments/2458/3756-rsync.log' '/tmp/2458-3756/' '/srv/htdocs' | awk '{print $2}' | grep -vxF \"./\" | sed \"s|/$||\" | sort -r | jq -R -s -c 'split(\"\\n\")[:-1]' | jq --arg target_dir '/srv/htdocs' -n '{target_dir: $target_dir, files: input}' > '/srv/htdocs/.code-deployments/2458/manifest.json' && cat '/srv/htdocs/.code-deployments/2458/3756-rsync.log' && rm -f '/tmp/2458-3756-protected-files'",
+    "exitCode": 0,
+    "stdout": [
+      "'/srv/htdocs/.code-deployments/2458/manifest.json' -> '/srv/htdocs/.code-deployments/2458/manifest.json.old'",
+      "2024/05/30 14:06:41 [26] building file list",
+      "2024/05/30 14:06:41 [26] .d          ./",
+      "2024/05/30 14:06:41 [26] >f..T...... README.md",
+      "2024/05/30 14:06:41 [26] .d          Local Sites/",
+      "2024/05/30 14:06:41 [26] .d          Local Sites/totaquicom/",
+      "2024/05/30 14:06:41 [26] .d          Local Sites/totaquicom/app/",
+      "2024/05/30 14:06:41 [26] .d          Local Sites/totaquicom/app/public/",
+      "2024/05/30 14:06:41 [26] .d          Local Sites/totaquicom/app/public/wp-content/",
+      "2024/05/30 14:06:41 [26] .d          Local Sites/totaquicom/app/public/wp-content/plugins/",
+      "2024/05/30 14:06:41 [26] .d          Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/",
+      "2024/05/30 14:06:41 [26] >f..T...... Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/custom-address-autocomplete.php",
+      "2024/05/30 14:06:41 [26] >f..T...... Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/custom-autocomplete.js",
+      "2024/05/30 14:06:41 [26] sent 4306 bytes  received 117 bytes  total size 3845"
+    ],
+    "stderr": []
+  },
+  {
+    "commandIdentifier": "d70f0616e1a1d146f1a9214aa6d6417d1853c3370aadaf9c4b212e43ebfcdb33",
+    "startTime": "2024-05-30T14:06:43+00:00",
+    "command": "if [ -f '/srv/htdocs/.code-deployments/2458/manifest.json.old' ]; then jq -r '.target_dir' '/srv/htdocs/.code-deployments/2458/manifest.json.old'; else echo ''; fi",
+    "exitCode": 0,
+    "stdout": [
+      "/srv/htdocs"
+    ],
+    "stderr": []
+  },
+  {
+    "commandIdentifier": "fec294d5db2b5a916e3e36a5dae5d2818ffd238362a5f9328ec465242707a2d5",
+    "startTime": "2024-05-30T14:06:45+00:00",
+    "command": "\tjq -r '.files[]' /srv/htdocs/.code-deployments/2458/manifest.json.old | while read file; do\n\tif ! test -e /tmp/2458-3756/$file; then\n\t\tif [ -d \"/srv/htdocs/$file\" ]; then\n\t\t\trmdir --ignore-fail-on-non-empty \"/srv/htdocs/$file\"\n\t\telse\n\t\t\trm -fv \"/srv/htdocs/$file\"\n\t\tfi\n\tfi\n\tdone",
+    "exitCode": 0,
+    "stdout": [],
+    "stderr": []
+  },
+  {
+    "commandIdentifier": "efbe952efcc1729403eef25a6f21a6f2e8b758c8d4c177984fcf6b10dc7d1401",
+    "startTime": "2024-05-30T14:06:47+00:00",
+    "command": "rm -f /srv/htdocs/.code-deployments/2458/manifest.json.old",
+    "exitCode": 0,
+    "stdout": [],
+    "stderr": []
+  },
+  {
+    "commandIdentifier": "b94d61d09f2f2220946cfe92e3d00885fdb54e17b3ef71834f454d1f80059534",
+    "startTime": "2024-05-30T14:06:49+00:00",
+    "command": "rm -rf '/tmp/2458-3756'",
+    "exitCode": 0,
+    "stdout": [],
+    "stderr": []
+  }
+]

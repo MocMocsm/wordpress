@@ -1,0 +1,375 @@
+# Translation of Themes - Blockbase in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Blockbase package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-09 20:57:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Blockbase\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Blockbase is a simple theme that supports full-site editing. It comes with a set of minimal templates and design settings that can be manipulated through Global Styles. Use it to build something beautiful."
+msgstr "Blockbase en un tema sencillo compatible con la edición completa del sitio. Viene con un conjunto mínimo de plantillas y ajustes de diseño que pueden ser manipulados mediante los estilos globales.  Úsalo para crear algo hermoso."
+
+#. Theme Name of the theme
+#: style.css inc/block-patterns.php:14
+#, gp-priority: high
+msgid "Blockbase"
+msgstr "Blockbase"
+
+#: styles/ruby-wine.json
+msgctxt "Style variation name"
+msgid "Ruby Wine"
+msgstr "Vino rubí"
+
+#: styles/rainforest.json
+msgctxt "Style variation name"
+msgid "Rainforest"
+msgstr "Selva tropical"
+
+#: styles/charcoal.json
+msgctxt "Style variation name"
+msgid "Charcoal"
+msgstr "Carbón"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Work Sans"
+msgstr "Work Sans"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Space Mono"
+msgstr "Space Mono"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr "Source Serif Pro"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Sans Pro"
+msgstr "Source Sans Pro"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Rubik"
+msgstr "Rubik"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Roboto Slab"
+msgstr "Roboto Slab"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Roboto"
+msgstr "Roboto"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Red Hat Display"
+msgstr "Red Hat Display"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Raleway"
+msgstr "Raleway"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr "Poppins"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Playfair Display"
+msgstr "Playfair Display"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Overpass"
+msgstr "Overpass"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Open Sans"
+msgstr "Open Sans"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Nunito"
+msgstr "Nunito"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Merriweather"
+msgstr "Merriweather"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Lora"
+msgstr "Lora"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Libre Franklin"
+msgstr "Libre Franklin"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Libre Baskerville"
+msgstr "Libre Baskerville"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Josefin Sans"
+msgstr "Josefin Sans"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr "IBM Plex Mono"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Helvetica Neue"
+msgstr "Helvetica Neue"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Fira Sans"
+msgstr "Fira Sans"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "EB Garamond"
+msgstr "EB Garamond"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Domine"
+msgstr "Domine"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DM Sans"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Courier Prime"
+msgstr "Courier Prime"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Chivo"
+msgstr "Chivo"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Cabin"
+msgstr "Cabin"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Bodoni Moda"
+msgstr "Bodoni Moda"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Arvo"
+msgstr "Arvo"
+
+#: patterns/comments.php
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr "Comentarios"
+
+#: inc/customizer/wp-customize-fonts.php:13
+msgid "https://wordpress.com/support/custom-fonts/"
+msgstr "https://wordpress.com/support/custom-fonts/"
+
+#: inc/customizer/wp-customize-fonts.php:12
+msgid "Updating fonts for this theme is now even easier! Use the site editor to select and preview different font families. <a href=\"%s\">More information.</a>"
+msgstr "¡Actualizar fuentes para este tema ahora es aún más fácil! Usa el editor del sitio para seleccionar y obtener una vista previa de diferentes familias de fuentes. <a href=\"%s\">Más información.</a>"
+
+#: inc/customizer/wp-customize-colors.php:27
+msgid "Color customization for this theme is now available exclusively in the Full Site Editor Global Styles panel.<br><br>Featured Palettes can now be found in the Full Site Editor as Theme Variations."
+msgstr "La personalización del color de este tema está ahora disponible exclusivamente en el panel Estilos globales del Editor del sitio.<br><br>Las paletas destacadas se pueden encontrar ahora en el Editor del sitio como variaciones del tema."
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Extra grande"
+
+#: inc/patterns/footer-with-site-title.php:9
+msgid "Footer with site title"
+msgstr "Pie de página con el título del sitio"
+
+#: inc/patterns/footer-small.php:9
+msgid "Small footer"
+msgstr "Pie de página pequeño"
+
+#: inc/patterns/footer-simple.php:9
+msgid "Simple footer"
+msgstr "Pie de página sencillo"
+
+#: inc/patterns/footer-separator.php:9
+msgid "Footer with menu and separator"
+msgstr "Pie de página con menú y separador"
+
+#: inc/patterns/footer-search.php:9
+msgid "Footer with Search Block"
+msgstr "Pie de página con bloque de búsqueda"
+
+#: inc/patterns/footer-primary.php:9
+msgid "Footer with menu"
+msgstr "Pie de página con menú"
+
+#: inc/patterns/footer-left.php:9
+msgid "Left aligned footer"
+msgstr "Pie de página alineado a la izquierda"
+
+#: inc/patterns/footer-columns.php:41
+msgid "Search"
+msgstr "Buscar"
+
+#: inc/patterns/footer-columns.php:33
+msgid "More info"
+msgstr "Más información"
+
+#: inc/patterns/footer-columns.php:9
+msgid "Footer with 3 columns"
+msgstr "Pie de página con 3 columnas"
+
+#: inc/block-patterns.php:52
+msgid "Blockbase Header ("
+msgstr "Cabecera de Blockbase ("
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Footer Only"
+msgstr "Solo el pie de página"
+
+#: inc/patterns/404.php:9
+msgid "404"
+msgstr "404"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Header and Footer Only"
+msgstr "Solo la cabecera y el pie de página"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr "En blanco"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "Fuente del sistema"
+
+#: functions.php:41
+msgid "Social Navigation"
+msgstr "Navegación social"
+
+#: styles/charcoal.json styles/rainforest.json styles/ruby-wine.json theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "Terciario"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Mediana"
+
+#: styles/charcoal.json styles/rainforest.json styles/ruby-wine.json theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "Fondo"
+
+#: styles/charcoal.json styles/rainforest.json styles/ruby-wine.json theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr "Primer plano"
+
+#: styles/charcoal.json styles/rainforest.json styles/ruby-wine.json theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Secundario"
+
+#: styles/charcoal.json styles/rainforest.json styles/ruby-wine.json theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Principal"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Pequeña"
+
+#: inc/patterns/404.php:17
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que no se ha encontrado nada en esta ubicación. ¿Quieres probar una búsqueda?"
+
+#: inc/patterns/404.php:13
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se ha podido encontrar esa página."
+
+#: inc/customizer/wp-customize-fonts.php:22
+msgid "Fonts"
+msgstr "Fuentes"
+
+#: inc/customizer/wp-customize-colors.php:18
+msgid "Colors"
+msgstr "Colores"
+
+#: inc/customizer/wp-customize-colors.php:17
+msgid "Color Customization for %1$s"
+msgstr "Personalización del color para %1$s"
+
+#: functions.php:40
+msgid "Primary Navigation"
+msgstr "Navegación principal"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wordpress.com/theme/blockbase"
+msgstr "https://es.wordpress.com/theme/blockbase"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://automattic.com/"
+msgstr "https://automattic.com/"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Automattic"
+msgstr "Automattic"

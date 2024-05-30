@@ -1,0 +1,43 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Estilo general para ambos formularios */
+.wpcf7-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.wpcf7-form input,
+.wpcf7-form select,
+.wpcf7-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.wpcf7-form input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos específicos para el formulario de usuarios */
+.page-id-118 .wpcf7-form input[type="submit"] {
+    background-color: var(--user-submit-bg, #0073aa); /* Color distintivo para usuarios */
+}
+
+/* Estilos específicos para el formulario de empresarios */
+.page-id-118 .wpcf7-form input[type="submit"] {
+    background-color: var(--business-submit-bg, #8b0000); /* Color distintivo para empresarios */
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

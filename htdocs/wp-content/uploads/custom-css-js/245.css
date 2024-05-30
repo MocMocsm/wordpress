@@ -1,0 +1,28 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+
+/* Estilos para el diseño de columnas de los formularios */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Añade espacio entre las columnas */
+}
+
+.form-column {
+    flex: 1;
+    min-width: 300px; /* Ajusta el tamaño mínimo según tus necesidades */
+}
+
+/* Ajustes específicos para Ultimate Member formularios */
+.um {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.um .um-field {
+    flex: 1 1 calc(50% - 20px); /* Para dos columnas */
+    min-width: 200px;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

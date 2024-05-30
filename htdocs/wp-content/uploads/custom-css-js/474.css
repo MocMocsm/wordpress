@@ -1,0 +1,28 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Ocultar todos los campos excepto el mapa */
+#store-setup .form-group {
+    display: none;
+}
+
+#store-setup #dokan-map-location, 
+#store-setup #dokan-store-map {
+    display: block !important;
+}
+
+#store-setup #dokan-map-location {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+#store-setup #dokan-store-map {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

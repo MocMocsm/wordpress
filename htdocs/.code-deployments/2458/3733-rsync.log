@@ -1,0 +1,13 @@
+2024/05/30 02:30:21 [26] building file list
+2024/05/30 02:30:21 [26] .d          ./
+2024/05/30 02:30:21 [26] >f+++++++++ README.md
+2024/05/30 02:30:21 [26] cd+++++++++ Local Sites/
+2024/05/30 02:30:21 [26] cd+++++++++ Local Sites/totaquicom/
+2024/05/30 02:30:21 [26] cd+++++++++ Local Sites/totaquicom/app/
+2024/05/30 02:30:21 [26] cd+++++++++ Local Sites/totaquicom/app/public/
+2024/05/30 02:30:21 [26] cd+++++++++ Local Sites/totaquicom/app/public/wp-content/
+2024/05/30 02:30:21 [26] cd+++++++++ Local Sites/totaquicom/app/public/wp-content/plugins/
+2024/05/30 02:30:21 [26] cd+++++++++ Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/
+2024/05/30 02:30:21 [26] >f+++++++++ Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/custom-address-autocomplete.php
+2024/05/30 02:30:21 [26] >f+++++++++ Local Sites/totaquicom/app/public/wp-content/plugins/custom-address-autocomplete/custom-autocomplete.js
+2024/05/30 02:30:21 [26] sent 4306 bytes  received 117 bytes  total size 3845

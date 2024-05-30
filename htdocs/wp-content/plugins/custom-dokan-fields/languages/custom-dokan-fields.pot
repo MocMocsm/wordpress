@@ -1,0 +1,696 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dokan Custom fields\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-07 05:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: dokan-custom-fields"
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:114
+msgid "30 minutes"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:110
+msgid "60 minutes"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:200
+msgid "Add"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:774
+#: include/admin/forms/dcfpp_show_new_form.php:171
+msgid "Add Condition"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_billing_fields_form.php:114
+msgid "Add New Field"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:326
+msgid "Address"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:255
+msgid "Albanian (Shqip)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:94
+msgid "Allowed Times"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:663
+#: include/admin/forms/dcfpp_show_new_form.php:122
+msgid "Always Visibile"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:198
+msgid "Amount"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:138
+msgid "Arabic"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:190
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:141
+msgid "Azerbaijanian (Azeri)"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:191
+#: include/admin/dcfpp_admin_settings.php:445
+msgid "billing_field_"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:144
+msgid "Bulgarian"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:147
+msgid "Català"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:518
+#: include/admin/forms/dcfpp_show_new_form.php:58
+msgid "Checkbox"
+msgstr ""
+
+#: include/manage_extrafield_class.php:288
+msgid "Choose an Option"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:621
+msgid "Choose Default Option"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:682
+#: include/admin/forms/dcfpp_show_new_form.php:138
+msgid "Choose Roles"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:781
+#: include/admin/forms/dcfpp_show_new_form.php:177
+msgid "Chose Options"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:665
+#: include/admin/forms/dcfpp_show_new_form.php:124
+msgid "Conditional - Field Specific"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:666
+#: include/admin/forms/dcfpp_show_new_form.php:125
+msgid "Conditional - Role Specific"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:501
+msgid "Copy to clipboard"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:192
+msgid "Custom field "
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:208
+msgid "Custom Label"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:156
+msgid "Dansk"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:315
+msgid "Date and Time picker Week Starts On"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:522
+#: include/admin/forms/dcfpp_show_new_form.php:62
+msgid "Date Picker"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:525
+#: include/admin/forms/dcfpp_show_new_form.php:65
+msgid "Date Range Picker"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:292
+msgid "Date Range Picker Week Starts On"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:523
+#: include/admin/forms/dcfpp_show_new_form.php:63
+msgid "Date Time Picker"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:123
+msgid "Date Time Picker Language"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:526
+#: include/admin/forms/dcfpp_show_new_form.php:66
+msgid "Date Time Range Picker"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:60
+msgid "Datepicker disable days"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:29
+msgid "Datepicker format"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:40
+msgid "dd MM yyyy (01 january 2020)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:37
+msgid "dd-mm-yyyy (01-01-2020)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:34
+msgid "dd/mm/yyyy (01/01/2020)"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:201
+msgid "Deduct"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:611
+msgid "Default Option"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:788
+#: include/admin/forms/dcfpp_show_new_form.php:184
+msgid "Disable Past Date Selection In Datepicker"
+msgstr ""
+
+#: dokan-custom-fields.php:47
+msgid "Docs"
+msgstr ""
+
+#. Name of the plugin
+msgid "Dokan Custom fields"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:221
+msgid "Dokan Fields"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:225
+msgid "Dutch"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:171
+msgid "Eesti"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:514
+#: include/admin/forms/dcfpp_show_new_form.php:54
+msgid "Email"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:135
+msgid "English"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:165
+msgid "English (British)"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:197
+msgid "Enter Class"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:196
+msgid "Enter Option"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:98
+msgid ""
+"Enter values separated by comma(,) for example 11:00,11:30,12:00 Leave blank "
+"to show all."
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:174
+msgid "Euskara"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:579
+#: include/admin/forms/dcfpp_show_new_form.php:94
+msgid "Extra Class"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:487
+msgid "Field Key"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:207
+msgid "Field key successfully copied to clipboard."
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:508
+#: include/admin/forms/dcfpp_show_new_form.php:48
+msgid "Field Type"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:180
+msgid "Finnish (Suomi)"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:205
+msgid "Fixed Amount"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:183
+msgid "French"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:81
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:342
+msgid "Friday"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:186
+msgid "Galego"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:159
+msgid "German"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:512
+#: include/admin/forms/dcfpp_show_new_form.php:52
+msgid "Heading"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:189
+msgid "Hebrew (עברית)"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:202
+#: include/admin/dcfpp_admin_settings.php:721
+msgid "Hide"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:192
+msgid "Hrvatski"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://sysbasics.com"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:195
+msgid "Hungarian"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:764
+#: include/admin/forms/dcfpp_show_new_form.php:160
+msgid "If parent field is checkbox leave blank for equal to field."
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:767
+#: include/admin/forms/dcfpp_show_new_form.php:164
+msgid ""
+"If parent field is radio/select and its value has space, replace space with "
+"underscore ( _ ) and all text should be lowercase for example equal to field "
+"for \"Option 3\" will be option_3."
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:203
+#: include/admin/dcfpp_admin_settings.php:724
+msgid "If value of"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:198
+msgid "Indonesian"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:204
+#: include/admin/dcfpp_admin_settings.php:748
+msgid "is equal to"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:201
+msgid "Italian"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:204
+msgid "Japanese"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:210
+msgid "Korean"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:207
+msgid "Korean (한국어)"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:534
+#: include/admin/forms/dcfpp_show_new_form.php:71
+msgid "Label"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:216
+msgid "Latvian (Latviešu)"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"lets you Add/edit new fields on dokan add product and edit product page."
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:213
+msgid "Lithuanian (lietuvių)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:219
+msgid "Macedonian (Македонски)"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:557
+msgid "Max Characters Allowed"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:50
+msgid "MM dd yyyy (january 01 2020)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:47
+msgid "mm-dd-yyyy (01-01-2020)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:44
+msgid "mm/dd/yyyy (01/01/2020)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:68
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:307
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:330
+msgid "Monday"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:222
+msgid "Mongolian (Монгол)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_show_new_form.php:60
+msgid "Multi Select"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:520
+msgid "multiselect"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:228
+msgid "Norwegian"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:515
+#: include/admin/forms/dcfpp_show_new_form.php:55
+msgid "Number"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:591
+#: include/admin/forms/dcfpp_show_new_form.php:104
+msgid "Options"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:539
+msgid "Order notes"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:513
+#: include/admin/forms/dcfpp_show_new_form.php:53
+msgid "Paragraph"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:516
+#: include/admin/forms/dcfpp_show_new_form.php:56
+msgid "Password"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:206
+msgid "Percentage"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:177
+msgid "Persian"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:573
+#: include/admin/forms/dcfpp_show_new_form.php:87
+msgid "Placeholder "
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:231
+msgid "Polish"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:234
+msgid "Portuguese"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:237
+msgid "Português(Brasil)"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:345
+msgid "Postcode / Zip"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:521
+#: include/admin/forms/dcfpp_show_new_form.php:61
+msgid "Radio Select"
+msgstr ""
+
+#: include/manage_extrafield_class.php:40
+#: include/manage_extrafield_class.php:74
+#: include/manage_extrafield_class.php:110
+#: include/manage_extrafield_class.php:142
+#: include/manage_extrafield_class.php:180
+#: include/manage_extrafield_class.php:210
+#: include/manage_extrafield_class.php:279
+#: include/manage_extrafield_class.php:334
+#: include/manage_extrafield_class.php:400
+#: include/manage_extrafield_class.php:448
+#: include/manage_extrafield_class.php:496
+#: include/manage_extrafield_class.php:545
+#: include/manage_extrafield_class.php:591
+msgid "required"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:177
+msgid ""
+"Restoring Default fields will undo all your Changes. Are you sure you want "
+"to do this ?"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:240
+msgid "Romanian"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:243
+msgid "Russian"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:84
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:345
+msgid "Saturday"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:300
+msgid "Save Changes"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:193
+msgid "Search and Select "
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:519
+#: include/admin/forms/dcfpp_show_new_form.php:59
+msgid "Select"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:679
+#: include/admin/forms/dcfpp_show_new_form.php:135
+msgid "Select Roles"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:261
+msgid "Serbian (Srpski)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:258
+msgid "Serbian Cyrillic (Српски)"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:700
+#: include/admin/forms/dcfpp_show_new_form.php:151
+msgid "Set Rule"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:232
+msgid "Settings"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:199
+#: include/admin/dcfpp_admin_settings.php:720
+msgid "Show"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:150
+msgid "Simplified Chinese"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:279
+msgid "Simplified Chinese (简体中文)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:249
+msgid "Slovenčina"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:252
+msgid "Slovenščina"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:168
+msgid "Spanish"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:340
+msgid "State / County"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:65
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:304
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:327
+msgid "Sunday"
+msgstr ""
+
+#: dokan-custom-fields.php:48
+msgid "Support"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:264
+msgid "Svenska"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:246
+msgid "Swedish"
+msgstr ""
+
+#. Author of the plugin
+msgid "sysbasics"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:511
+#: include/admin/forms/dcfpp_show_new_form.php:51
+msgid "Text"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:517
+#: include/admin/forms/dcfpp_show_new_form.php:57
+msgid "Textarea"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:267
+msgid "Thai"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:78
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:339
+msgid "Thursday"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:524
+#: include/admin/forms/dcfpp_show_new_form.php:64
+msgid "Time Picker"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:105
+msgid "Timepicker Interval"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:335
+msgid "Town / City"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:282
+msgid "Traditional Chinese (繁體中文)"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:71
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:333
+msgid "Tuesday"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:270
+msgid "Turkish"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:273
+msgid "Ukrainian"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:597
+#: include/admin/forms/dcfpp_show_new_form.php:110
+msgid ""
+"Use pipe key or comma to separate option.If you are using it for field "
+"specific conditional visibility replace space with underscore ( _ ) . For "
+"Example value for \"Option 2\" will be Option_2"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:583
+#: include/admin/forms/dcfpp_show_new_form.php:98
+msgid "Use space key or comma to separate class"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:276
+msgid "Vietnamese"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:660
+#: include/admin/forms/dcfpp_show_new_form.php:119
+msgid "Visibility"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:75
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:336
+msgid "Wednesday"
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:770
+#: include/admin/forms/dcfpp_show_new_form.php:168
+msgid "You can also use text/textarea field as parent field."
+msgstr ""
+
+#: include/admin/dcfpp_admin_settings.php:181
+msgid ""
+"You can not restore fields in plugin demo.Of course this will work on your "
+"site."
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:153
+msgid "Čeština"
+msgstr ""
+
+#: include/admin/forms/dcfpp_admin_extra_fields_form.php:162
+msgid "Ελληνικά"
+msgstr ""

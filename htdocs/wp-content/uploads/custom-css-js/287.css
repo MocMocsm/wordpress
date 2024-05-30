@@ -1,0 +1,88 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Estilos para el switch */
+.profile-switch-container {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px; /* Aumentar el tamaño para mayor visibilidad */
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Estilos para el diseño de columnas de los formularios */
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Añade espacio entre las columnas */
+}
+
+.form-column {
+    flex: 1 1 calc(50% - 20px);
+    min-width: 300px; /* Ajusta el tamaño mínimo según tus necesidades */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.form-title {
+	text-align: center;
+}
+
+/* Ajustes específicos para formularios de Ultimate Member */
+.um .um-row._um_row_1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.um .um-col-1 {
+    flex: 1;
+    min-width: calc(50% - 20px); /* Ajusta el espacio entre columnas */
+    box-sizing: border-box;
+}
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->

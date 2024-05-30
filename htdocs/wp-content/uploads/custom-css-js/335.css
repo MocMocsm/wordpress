@@ -1,0 +1,103 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Estilos para el contenedor del título y switch */
+.form-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el título */
+.dynamic-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* Estilos para el switch */
+.profile-switch-container {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.word-switch {
+    position: relative;
+    display: inline-block;
+    width: 180px; /* Ancho del switch ajustado */
+    height: 50px;  /* Alto del switch ajustado */
+    background-color: #000;
+    border-radius: 0px; /* Esquinas rectas */
+    overflow: hidden;
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.word-switch input {
+    display: none;
+}
+
+.word-switch .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: 0.4s;
+}
+
+.word-switch .slider:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.word-switch .text {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    line-height: 50px; /* Debe coincidir con el alto del switch */
+    transition: 0.4s;
+}
+
+.word-switch .text.usuario {
+    left: 0;
+    color: #000;
+}
+
+.word-switch .text.empresa {
+    right: 0;
+    color: #fff;
+}
+
+.word-switch input:checked + .slider:before {
+    transform: translateX(100%);
+}
+
+.word-switch input:checked ~ .text.usuario {
+    color: #fff;
+}
+
+.word-switch input:checked ~ .text.empresa {
+    color: #000;
+}
+
+/* Efectos de desvanecimiento */
+#userForm, #companyForm {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
+}
+
+#userForm.active, #companyForm.active {
+    opacity: 1;
+    position: relative;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

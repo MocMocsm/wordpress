@@ -1,0 +1,147 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Estilo general para ambos formularios */
+.wpcf7-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.wpcf7-form input,
+.wpcf7-form select,
+.wpcf7-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.wpcf7-form input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilo general para los switches */
+.profile-switch-container,
+.word-switch-container {
+    display: flex;
+    justify-content: flex-end; /* Ajusta la posición del switch */
+    margin-bottom: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.word-switch,
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 180px; /* Ancho del switch ajustado */
+    height: 50px;  /* Alto del switch ajustado */
+    background-color: #000;
+    border: 1px solid #ccc;
+    border-radius: 0px; /* Esquinas rectas */
+    overflow: hidden;
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.word-switch input,
+.switch input {
+    display: none;
+}
+
+.word-switch .slider,
+.switch .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: 0.4s;
+}
+
+.word-switch .slider:before,
+.switch .slider:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.word-switch .text,
+.switch .text {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    line-height: 50px; /* Debe coincidir con el alto del switch */
+    transition: 0.4s;
+}
+
+.word-switch .text.usuario,
+.switch .text.usuario {
+    left: 0;
+    color: #000;
+}
+
+.word-switch .text.empresa,
+.switch .text.empresa {
+    right: 0;
+    color: #fff;
+}
+
+.word-switch input:checked + .slider:before,
+.switch input:checked + .slider:before {
+    transform: translateX(100%);
+}
+
+.word-switch input:checked ~ .text.usuario,
+.switch input:checked ~ .text.usuario {
+    color: #fff;
+}
+
+.word-switch input:checked ~ .text.empresa,
+.switch input:checked ~ .text.empresa {
+    color: #000;
+}
+
+/* Estilos para el título del formulario */
+.form-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: left; /* Alineación a la izquierda */
+    margin-bottom: 20px;
+    position: relative; /* Para que el switch se posicione correctamente */
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px; /* Espacio entre el switch y el título */
+}
+
+/* Ajuste de tamaño del contenedor de los formularios */
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative; /* Para posicionar el switch */
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
